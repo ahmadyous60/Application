@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <h1>A+ or true</h1>
+    <h6>Write a JavaScript program to check the total marks of a student in various<br>
+        examinations. The student will get A+ grade if the total marks are in the<br> 
+        range 89..100 inclusive, if the examination is "Final-exam." the student<br> 
+        will get A+ grade and total marks must be greater than or equal to 90.<br> 
+        Return true if the student get A+ grade or false otherwise.</h6>
+        
+    <div class="center-content">
+        <br>
+        <label for="t_marks">Enter Marks</label><br>
+        <input type="number" id="t_marks"><br>
+        <label for="examType">Select Exam</label><br>
+
+        <select id="examType">
+        <option value="Final-exam">Final Term Exam</option>
+        <option value="Mid Term">Mid Term Exam</option>
+        </select><br>
+        
+        <button onclick="checkResult()">Check</button>
+
+        <br>
+        </div>
+        <p id="demo"></p>
+        <script src="./myScript.js"></script>
+</body>
+</html>

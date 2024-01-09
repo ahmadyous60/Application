@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    color: black;
+    background-color: #187f8d;
+    height: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#searchInput {
+    width: 83%;
+    padding: 8px;
+    margin-left: 0%;
+    margin-right: 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    display: inline-block; 
+}
+
+.sort-buttons {
+    display: inline-block; 
+}
+
+.sort-buttons button {
+    border: none;
+    border-radius: 50%;
+    background-color: #187f8d;
+    color: white;
+    padding: 8px;
+    font-size: 10px;
+}
+.sort-buttons button.btn-asc {
+    background-color: #ff2400;
+}
+
+.sort-buttons button.btn-desc {
+    background-color: #ffdb58;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+}
+
+.sidebar {
+    height: 80vh;
+    background-color: rgb(236, 229, 229);
+    position: fixed; 
+    box-sizing: content-box;
+    overflow-y: auto;
+}
+
+.sidebar a {
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 20px;
+}
+
+.sidebar a:hover {
+    background-color: #ddd;
+}
+
+iframe {
+    height: 53vh;
+    width: 75%;
+    margin-left: 25%;
+    border: none;
+}
+
+.selected-question {
+    background-color: #87d1db;
+}
+.Error {
+    display: none;
+    padding: 20px;
+    font-size: 50px;
+}
